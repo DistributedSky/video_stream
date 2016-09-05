@@ -8,7 +8,10 @@ The `streamer` is any bynary with two args:
  - video device (e.g. `/dev/video0`)
  - stream identifier (256bit hex, e.g. `4f66e...`) 
 
+Sample video streamer: [bin/streamer_example.py][2]
+
 [1]: https://github.com/DroneEmployee/contracts/blob/master/interface/Streaming.sol
+[2]: https://github.com/DroneEmployee/video_stream/blob/master/bin/streamer_example.py
 
 ### Usage
 

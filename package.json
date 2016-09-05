@@ -1,0 +1,29 @@
+{
+  "name": "video_stream",
+  "version": "0.1.0",
+  "description": "DroneEmployee video streaming support",
+  "main": "streamd.js",
+  "dependencies": {
+    "web3": "",
+    "optimist": ""
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DroneEmployee/video_stream.git"
+  },
+  "keywords": [
+    "DroneEmployee",
+    "robotics",
+    "video",
+    "streaming"
+  ],
+  "author": "Alexander Krupenkin <mail@akru.me>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/DroneEmployee/video_stream/issues"
+  },
+  "homepage": "https://github.com/DroneEmployee/video_stream#readme"
+}

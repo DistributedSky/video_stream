@@ -22,7 +22,8 @@ function video_process(ident)
 web3.setProvider(new web3.providers.HttpProvider(argv.rpc));
 
 // Load contract
-streaming.contract = web3.eth.contract(streaming.abi).at(argv.c);
+streaming.address  = argv.c.replace(/"/g, '');
+streaming.contract = web3.eth.contract(streaming.abi).at(streaming.address);
 
 // Listen Stream event
 streaming.contract.Stream({}, '', (e, r) => {
@@ -49,8 +50,3 @@ streaming.contract.Stream({}, '', (e, r) => {
         }
     }
 });
-
-// Wait forever
-const process = require('process')
-const wait = function() { process.nextTick(wait) }
-wait();

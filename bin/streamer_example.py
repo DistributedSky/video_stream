@@ -32,8 +32,6 @@ class CamHandler(BaseHTTPRequestHandler):
 					time.sleep(0.05)
 				except KeyboardInterrupt:
 					break
-				finally:
-					capture.close()
 			return
 		else:
 			self.send_response(200)
@@ -51,8 +49,8 @@ class ThreadedHTTPServer(ThreadingMixIn, HTTPServer):
 def main():
 	global capture
 	capture = cv2.VideoCapture(0)
-	capture.set(cv2.cv.CV_CAP_PROP_FRAME_WIDTH, 320); 
-	capture.set(cv2.cv.CV_CAP_PROP_FRAME_HEIGHT, 240);
+	capture.set(cv2.cv.CV_CAP_PROP_FRAME_WIDTH, 640); 
+	capture.set(cv2.cv.CV_CAP_PROP_FRAME_HEIGHT, 480);
 	capture.set(cv2.cv.CV_CAP_PROP_SATURATION,0.2);
 	global img
 	try:

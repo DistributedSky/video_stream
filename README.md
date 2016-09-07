@@ -27,3 +27,6 @@ Sample video streamer: [bin/streamer_example.py][2]
         -c     Streaming contract address               [required]
         -e     Shell command to start streaming daemon  [required]
 
+### Usage example
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/HB4BlSXatuY" frameborder="0" allowfullscreen></iframe>

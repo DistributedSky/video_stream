@@ -3,7 +3,7 @@
 The aim of this is a spawn `streamer` (the executable that stream video)
 according to smart contract logic. The code works with [Streaming.sol][1].
 
-> For deploying smart contracts you can use [Aira deploy script]
+> For deploying smart contracts you can use [Aira deploy script][3]
 
 The `streamer` is any bynary with two args:
 

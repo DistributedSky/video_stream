@@ -29,4 +29,4 @@ Sample video streamer: [bin/streamer_example.py][2]
 
 ### Usage example
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HB4BlSXatuY" frameborder="0" allowfullscreen></iframe>
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/HB4BlSXatuY/0.jpg)](https://www.youtube.com/watch?v=HB4BlSXatuY)

@@ -27,6 +27,6 @@ Sample video streamer: [bin/streamer_example.py][2]
         -c     Streaming contract address               [required]
         -e     Shell command to start streaming daemon  [required]
 
-### Usage example
+### Usage example on Youtube
 
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/HB4BlSXatuY/0.jpg)](https://www.youtube.com/watch?v=HB4BlSXatuY)
+[![DroneEmployee video streaming Usage example on Youtube](http://img.youtube.com/vi/HB4BlSXatuY/0.jpg)](https://www.youtube.com/watch?v=HB4BlSXatuY)

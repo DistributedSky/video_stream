@@ -3,6 +3,8 @@
 The aim of this is a spawn `streamer` (the executable that stream video)
 according to smart contract logic. The code works with [Streaming.sol][1].
 
+> For deploying smart contracts you can use [Aira deploy script]
+
 The `streamer` is any bynary with two args:
 
  - video device (e.g. `/dev/video0`)
@@ -12,6 +14,7 @@ Sample video streamer: [bin/streamer_example.py][2]
 
 [1]: https://github.com/DroneEmployee/contracts/blob/master/interface/Streaming.sol
 [2]: https://github.com/DroneEmployee/video_stream/blob/master/bin/streamer_example.py
+[3]: https://github.com/airalab/core/wiki/AIRA-Deploy
 
 ### Usage
 
